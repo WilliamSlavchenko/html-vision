@@ -355,22 +355,28 @@
   line-height: 1.75rem;
   font-weight: 600;
 }
-.vision-is-the-container,
-.you-have-an {
-  position: relative;
-  color: var(--color-midnightblue);
-}
 .vision-is-the-container {
   margin: 0;
   align-self: stretch;
+  position: relative;
   font-size: var(--titles-h2-size);
   letter-spacing: 0.02em;
   line-height: 4rem;
   font-weight: 700;
   font-family: inherit;
+  color: var(--color-midnightblue);
+}
+.for-projects-parent {
+  width: 25.44rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .you-have-an {
+  position: relative;
   line-height: 1.75rem;
+  color: var(--color-midnightblue);
   display: inline-block;
   width: 38.5rem;
 }
@@ -443,40 +449,16 @@
   color: var(--main-gray);
   display: none;
 }
-.li15 {
-  border: 0;
-  font-weight: 500;
-  font-family: var(--regular);
-  font-size: var(--font-size-base);
-  background-color: var(--main-white);
-  flex: 1;
-  border-radius: var(--br-5xs);
-  box-shadow: var(--effect);
-  padding: var(--padding-5xl);
-}
-.li-child,
-.li15,
-.li17,
-.ul1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.li-child {
-  border: 0;
-  background-color: transparent;
-  font-weight: 500;
-  font-family: var(--regular);
-  font-size: var(--font-size-base);
-  flex: 1;
-}
-.li17,
+.li14,
 .ul1 {
   align-self: stretch;
 }
 .ul1 {
+  height: 20.75rem;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-xl);
   font-size: var(--font-size-base);
   color: var(--color-midnightblue);
@@ -538,20 +520,23 @@
   line-height: 1.75rem;
   font-weight: 600;
 }
-.title3 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.well-distribute-your7 {
+.well-distribute-your6 {
   position: relative;
   font-size: var(--regular-size);
   line-height: 1.5rem;
   color: var(--main-gray);
   display: none;
   width: 28.63rem;
+}
+.ul2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-midnightblue);
 }
 .primary-button3 {
   border-radius: var(--br-5xs);
@@ -591,34 +576,69 @@
   color: var(--main-primary);
   font-family: var(--regular);
 }
+.container-fluid-child,
 .defipie-logo-bg {
   flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.defipie-logo-bg {
   position: absolute;
   margin: 0 !important;
   top: 8.31rem;
   left: 21.06rem;
-  max-width: 100%;
-  overflow: hidden;
   height: 35.31rem;
-  mix-blend-mode: normal;
   z-index: 0;
 }
-.container-fluid-child,
-.logo-1-icon1 {
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-}
 .container-fluid-child {
-  flex: 1;
+  position: relative;
   height: 51.88rem;
   object-fit: cover;
-  mix-blend-mode: normal;
   z-index: 1;
 }
-.logo-1-icon1 {
-  align-self: stretch;
+.group-child,
+.path-6-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.path-6-icon {
+  height: 32.7%;
+  width: 52.33%;
+  top: 34.53%;
+  right: 0.01%;
+  bottom: 32.77%;
+  left: 47.66%;
+}
+.group-parent,
+.logo-1-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.logo-1-inner {
+  height: 99.56%;
+  width: 99.22%;
+  right: 0.78%;
+  bottom: 0.44%;
+}
+.logo-1 {
+  position: relative;
+  width: 6.5rem;
   height: 7.44rem;
+  overflow: hidden;
   flex-shrink: 0;
 }
 .by-defipie {
@@ -634,13 +654,12 @@
   font-weight: 700;
   font-family: inherit;
 }
-.logo-1-parent {
+.brought-to-you-by-defipie-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 1rem;
 }
 .defipie-is-the {
   margin-block-start: 0;
