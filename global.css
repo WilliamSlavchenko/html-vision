@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --regular: Poppins;
+
+  /* font sizes */
+  --regular-size: 0.88rem;
+  --font-size-base: 1rem;
+  --regular1-size: 1.13rem;
+  --titles-h2-size: 3.25rem;
+  --medium-size: 1.5rem;
+  --titles-h1-size: 4rem;
+
+  /* Colors */
+  --main-white: #fff;
+  --color-midnightblue: #23155b;
+  --main-gray-light: #d4cdef;
+  --main-primary: #8053ff;
+  --color-whitesmoke: #f4f5f4;
+  --main-gray: #928cab;
+
+  /* Gaps */
+  --gap-21xl: 2.5rem;
+  --gap-xl: 1.25rem;
+  --gap-5xl: 1.5rem;
+  --gap-9xs: 0.25rem;
+  --gap-xs: 0.75rem;
+  --gap-140xl: 9.94rem;
+  --gap-41xl: 3.75rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-5xl: 1.5rem;
+  --padding-sm: 0.88rem;
+  --padding-181xl: 12.5rem;
+  --padding-29xl: 3rem;
+  --padding-9xs: 0.25rem;
+
+  /* Border radiuses */
+  --br-231xl: 250px;
+  --br-5xs: 8px;
+  --br-80xl: 99px;
+
+  /* Effects */
+  --effect: 0px 8px 12px -6px rgba(35, 21, 91, 0.05),
+    0px 14px 64px -4px rgba(35, 21, 91, 0.05);
+}
